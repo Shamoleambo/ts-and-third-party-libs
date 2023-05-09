@@ -1,3 +1,5 @@
-import _ from 'lodash'
+import Product from './product.model'
 
-console.log(_.shuffle([1, 2, 3, 4, 5]))
+const p1 = new Product('book', 12.99)
+
+console.log(p1.getInformation())
